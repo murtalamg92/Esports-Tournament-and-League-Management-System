@@ -5,13 +5,9 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.agency-coordinator]
-path = 'contracts/agency-coordinator.clar'
-clarity_version = 2
-epoch = 2.5
 
-[contracts.beneficiary-system]
-path = 'contracts/beneficiary-system.clar'
+[contracts.player-registry]
+path = 'contracts/player-registry.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]

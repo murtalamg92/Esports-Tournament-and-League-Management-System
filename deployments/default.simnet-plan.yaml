@@ -50,13 +50,8 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
-            contract-name: agency-coordinator
+            contract-name: player-registry
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/agency-coordinator.clar
-            clarity-version: 2
-        - emulated-contract-publish:
-            contract-name: beneficiary-system
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/beneficiary-system.clar
+            path: contracts/player-registry.clar
             clarity-version: 2
       epoch: "2.5"
